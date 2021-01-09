@@ -528,8 +528,8 @@ def composite_to_prime(mlistPrime):
 
 #the test set with 
 numberOfElements = 10000
-rangeOElement = 100000 #This is the range of input set elements
-s = [randint(1,rangeOElement) for i in range(numberOfElements)]
+rangeOfElement = 1000000000 #This is the range of input set elements
+s = [randint(1,rangeOfElement) for i in range(numberOfElements)]
 
 for i in range(1,100):
     index = 10**i
